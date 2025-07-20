@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualiser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <!-- sorting Visualiser -->
+    <h1>SORTING VISUALISER</h1>
+    
+    <div class="btn">
+
+    <button onclick="generate()" id="Button1"> new array</button>
+    <button onclick="calculateSpeed()" id="Button6"> speed</button>
+    <div class="showSpeed" id="show">
+    <button onclick="setSpeed(0.5)" id="Button_0.5"> 0.5x</button>
+    <button onclick="setSpeed(1)" id="Button_1"> 1x</button>
+    <button onclick="setSpeed(1.5)" id="Button_1.5"> 1.5x</button>
+    <button onclick="setSpeed(2)" id="Button_2"> 2x</button>
+    </div>
+    <section class="data-container"></section> 
+    <div class="left">
+    
+        
+        
+        <button onclick="getSort('selection')" id="Button2"> Selection Sort</button>
+        <button onclick="getSort('bubble') " id="Button3"> Bubble Sort</button>
+        <button onclick="getSort('insertion')" id="Button4"> Insertion Sort</button>
+        <button onclick= "getSort('quick',0,14)"id="Button5"> Quick Sort</button>
+      
+       
+</div>
+</div>
+    
+</body>
+<script src="index.js"></script>
+
+
+</html>
